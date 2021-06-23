@@ -1,0 +1,48 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px;
+    padding: 0;
+}
+
+body{
+    align-items: center;
+    background-color: bisque;
+    position: relative;
+    width: 1000px;
+
+}
+.container{
+    display: inline-block;
+    justify-content: space-between;
+    width: 1000px;
+    background-color: burlywood;
+}
+
+.container li {
+    display: inline-block;
+    font-size: 20px;
+}
+
+.container a{
+    text-decoration: none;
+}
+
+.logo{
+    align-items: center;
+    height: 100px;
+}
+
+.title{
+    width: 320px;
+    padding: 10px;
+    margin: 0;
+}
+
+footer {
+    background-color: red;
+    bottom: 0;
+}
+.rodape li{
+    display: inline-block;
+    bottom: 0;
+}
